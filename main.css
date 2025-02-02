@@ -1,0 +1,22 @@
+@font-face {font-family: verdana; src: url('verdana.ttf') format('truetype'); font-weight: normal; font-style: normal;}
+@font-face {font-family: verdana; src: url('verdana-bold.ttf') format('truetype'); font-weight: bold; font-style: normal;}
+
+body {color:white; background-color: #FFCC00; background-size:auto; background-repeat: repeat; font-family:verdana;}
+h1, h2, h3, h4, h5, h6, li, p, div {text-align: center;}
+button {background-color: white; color:#FFCC00; border-style: none; padding: 10px;}
+button:hover {cursor: pointer;}
+button:active {background-color: #917400;}
+div {background-color: white; border-color: white; color: #FFCC00; width: 50%; margin: 0 auto; box-sizing: border-box; border-style: solid; border-width: 5px; padding: 5px; margin-top: 5px; margin-bottom: 5px; overflow: auto;}
+div.clear {color:white}
+
+mark {background-color: #FFCC00; color:white; font-weight: bold;}
+mark.inv {background-color: white; color:#FFCC00; font-weight: bold;}
+table {border: 1px solid white; border-collapse: collapse;}
+table a {color:white; font-weight: normal;}
+
+th, td {border: 1px solid}
+a {color:#CAA200;font-weight: bold;text-decoration: none;}
+li {text-align: left;}
+
+.hidden {color:#FFE993}
+@media (max-width: 768px) {div {width: 100%;}}
